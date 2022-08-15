@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/es-shims/Array.prototype.toSorted/compare/v1.0.0...v1.1.0) - 2022-08-14
+
+### Commits
+
+- [Tests] add coverage from https://github.com/tc39/test262/pull/3464 [`2172830`](https://github.com/es-shims/Array.prototype.toSorted/commit/21728306e552c80868753b0147dc5637e57ffd2b)
+- [meta] use `npmignore` to autogenerate an npmignore file [`972f761`](https://github.com/es-shims/Array.prototype.toSorted/commit/972f761599aaf97049a005974caa2d9b24581119)
+- [New] `shim`/`auto`: add `toSorted` to `Symbol.unscopables` [`2ad9bad`](https://github.com/es-shims/Array.prototype.toSorted/commit/2ad9bad51ab7d2e7cc579f6681809fe495682163)
+- [Deps] update `define-properties`, `es-abstract`, `get-intrinsic` [`e7b229d`](https://github.com/es-shims/Array.prototype.toSorted/commit/e7b229dbb0c199661f785dfa0d5403b81ed7811e)
+- [Dev Deps] update `@ljharb/eslint-config`, `functions-have-names`, `tape` [`2bccb92`](https://github.com/es-shims/Array.prototype.toSorted/commit/2bccb92d5314e3b86bb3ffc1144f0c86cdca285a)
+- [readme] fix link to spec [`0d024e6`](https://github.com/es-shims/Array.prototype.toSorted/commit/0d024e68e3d41b3ec8dbc8aa47e99d8987c91fea)
+
 ## v1.0.0 - 2022-03-31
 
 ### Commits
