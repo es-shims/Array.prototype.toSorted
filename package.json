@@ -64,6 +64,7 @@
 		"call-bind": "^1.0.2",
 		"define-properties": "^1.1.4",
 		"es-abstract": "^1.20.1",
+		"es-shim-unscopables": "^1.0.0",
 		"get-intrinsic": "^1.1.2"
 	},
 	"auto-changelog": {
