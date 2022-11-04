@@ -3,12 +3,12 @@
 var GetIntrinsic = require('get-intrinsic');
 var callBound = require('call-bind/callBound');
 
-var ArrayCreate = require('es-abstract/2021/ArrayCreate');
-var CreateDataPropertyOrThrow = require('es-abstract/2021/CreateDataPropertyOrThrow');
-var IsCallable = require('es-abstract/2021/IsCallable');
-var LengthOfArrayLike = require('es-abstract/2021/LengthOfArrayLike');
-var ToObject = require('es-abstract/2021/ToObject');
-var ToString = require('es-abstract/2021/ToString');
+var ArrayCreate = require('es-abstract/2022/ArrayCreate');
+var CreateDataPropertyOrThrow = require('es-abstract/2022/CreateDataPropertyOrThrow');
+var IsCallable = require('es-abstract/2022/IsCallable');
+var LengthOfArrayLike = require('es-abstract/2022/LengthOfArrayLike');
+var ToObject = require('es-abstract/2022/ToObject');
+var ToString = require('es-abstract/2022/ToString');
 
 var $TypeError = GetIntrinsic('%TypeError%');
 
