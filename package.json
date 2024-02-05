@@ -45,6 +45,13 @@
 		"url": "https://github.com/es-shims/Array.prototype.toSorted/issues"
 	},
 	"homepage": "https://github.com/es-shims/Array.prototype.toSorted#readme",
+	"dependencies": {
+		"call-bind": "^1.0.5",
+		"define-properties": "^1.2.1",
+		"es-abstract": "^1.22.3",
+		"es-errors": "^1.1.0",
+		"es-shim-unscopables": "^1.0.2"
+	},
 	"devDependencies": {
 		"@es-shims/api": "^2.4.2",
 		"@ljharb/eslint-config": "^21.1.0",
@@ -60,13 +67,6 @@
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.7.4"
-	},
-	"dependencies": {
-		"call-bind": "^1.0.5",
-		"define-properties": "^1.2.1",
-		"es-abstract": "^1.22.3",
-		"es-shim-unscopables": "^1.0.2",
-		"get-intrinsic": "^1.2.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
